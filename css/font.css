@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{ font-size:24px;
+	color:red;}
+
+
+title
+{
+color:green;
+}
+
+td{
+	color:red;
+	background-color: gray;
+	
+}
+
+p.a{	color:red;
+	background-color: gray;
+	}

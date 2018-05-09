@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>问卷调查(教学意见调查表)</title>
+<link rel="stylesheet" type="text/css" href="../css/font.css" />
+</head>
+
+<body>
+
+<h3>教学意见调查表</h3>
+<form method="post" action="" enctype="text/plain">
+<fieldset>
+<legend>个人课程及资料</legend>
+<ol>
+  
+  
+  <li>
+  请选择系所：
+  <select size="1" name="department">
+  <option>数计学院</option>
+  <option>经济与政治学院</option>
+  <option>文学院</option>
+  <option>外国语谢园</option>
+  <option>音乐学院</option>
+    <option>美术学院</option>
+  <option>物理与电子学院</option>
+  <option>机器与汽车学院</option>
+  <option>建筑工程学院</option>
+  <option>化学与食品学院</option>
+    <option>管理学院</option>
+  <option>医学院</option>
+  <option>孔明学院</option>
+ 
+  </select>
+  </li>
+   <li>
+  课程性质：
+  <select size="1" name="leixin">
+  <option>专业课</option>
+  <option>公共基础课</option>
+  </select>
+  </li>
+  <li>
+  科目名称：<input type="text" name="subject" autofocus />
+  </li>
+  <li>
+  讲师：<input type="text" name="teacher" />
+  </li>
+  <li>
+  性别：
+  <input type="radio" name="sex" value="男生" checked />
+  <input type="radio" name="sex" value="女生"  />
+  </li>
+  <li>
+  开课日期：<input type="date" name="startdate" />
+  </li>
+  </ol>
+</fieldset> 
+
+<fieldset>
+<legend>意见调查</legend>
+<ol>
+  <li>
+  这门课你的出席状况是
+  <input type="radio" name="assist" value="没有缺课" />没有缺课&nbsp;
+  <input type="radio" name="assist" value="缺课1~3次" />缺课1~3次&nbsp;
+  <input type="radio" name="assist" value="缺课4~6次" />缺课4~6次&nbsp;
+  <input type="radio" name="assist" value="缺课6次以上" />缺课6次以上
+  </li>
+  <li>
+  你对这门课的学习态度
+  <input type="radio" name="attitude" value="很认真" />很认真&nbsp;
+  <input type="radio" name="attitude" value="还算认真" />还算认真&nbsp;
+  <input type="radio" name="attitude" value="很不认真" />很不认真
+  </li>
+  <li>
+  你对这门课的授课教师的评分
+  <input type="radio" name="grade" value="优秀" />优秀&nbsp;
+  <input type="radio" name="grade" value="良好" />良好&nbsp;
+  <input type="radio" name="grade" value="及格" />及格&nbsp;
+  <input type="radio" name="grade" value="不及格" />不及格
+  </li>
+  <li>
+  修习这门课的原因（可复选）
+  <input type="checkbox" name="reason" value="必修" />必修
+  <input type="checkbox" name="reason" value="凑学分" />凑学分
+  <input type="checkbox" name="reason" value="个人兴趣" />个人兴趣
+  <input type="checkbox" name="reason" value="其他" />其他原因
+  </li>
+  <li>
+  请简述你对此门课的期望或改进的建议：<br />
+  <textarea rows="3" name="hope" cols="50"></textarea>
+  </li>
+  </ol>
+  </fieldset>
+  <input type="submit" value="提交" />
+  <input type="reset" value="重写" />
+  </form>
+  
+<a href="index.html"><h1>回首页</a>
+
+
+
+</body>
+</html>
